@@ -7,33 +7,26 @@
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/stream": "^1.1.0",
-    "compiler": "file:src/compiler",
     "eslint": "^7.17.0",
     "rollup": "^2.34.0",
     "rollup-plugin-cleanup": "^3.2.1",
     "rollup-plugin-string": "^3.0.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.29.0"
+    "rollup-plugin-terser": "^7.0.2"
   },
   "scripts": {
     "dev": "rollup -c ./src/config/rollup.js",
-    "sba-sass-w": "node ./src/compiler/ -t appcss -w",
-    "sba-sass": "node ./src/compiler/ -t appcss",
-    "compile-site": "node ./src/compiler/ -t site",
-    "watch-site": "node ./src/compiler/ -t site -w",
-    "compile-ext": "node ./src/compiler/ -t extension",
-    "watch-ext": "node ./src/compiler/ -t extension -w"
+    "build": "rollup -c ./src/config/rollup-build.js"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/draber/draber.github.io.git#readme",
+  "homepage": "https://github.com/draber/spelling-bee-ff-extension.git#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/draber/draber.github.io.git"
+    "url": "git+https://github.com/draber/spelling-bee-ff-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/draber/draber.github.io.git/issues"
+    "url": "https://github.com/draber/spelling-bee-ff-extension.git/issues"
   },
   "author": "Dieter Raber",
   "license": "MIT",
