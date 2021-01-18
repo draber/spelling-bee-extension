@@ -21,10 +21,11 @@ npm run dev
 // Bundle the ES 6 modules into a compressed IIFE
 npm run build
 ```
-Zip the resulting code in (dist/extension) and rename the file extension to _.crx_.
+Zip the resulting code in [dist/extension](dist/extension) and rename the file extension to _.crx_.
 
 ## Why is the version number so high?
 The project went through multiple iterations, from a simple IIFE bookmarklet to the ES 6 module based approach it has now. There were releases of most steps along the way. The version number therefore refers to the whole project, not just the Firefox extension.
 
+## Resources
 - [Source code](https://github.com/draber/spelling-bee-ff-extension/tree/main/src/js)
 - [License](https://github.com/draber/spelling-bee-ff-extension/blob/main/LICENSE.md)
