@@ -24,7 +24,7 @@ npm run build
 Zip the resulting code in [dist/extension](dist/extension) and rename the file extension to _.crx_.
 
 ## Why is the version number so high?
-The project went through multiple iterations, from a simple IIFE bookmarklet to the ES 6 module based approach it has now. There were releases of most steps along the way. The version number therefore refers to the whole project, not just the Firefox extension.
+The project went through multiple iterations, from a simple IIFE bookmarklet to the ES 6 module based approach it has now. There were releases of most steps along the way. The version number therefore refers to the whole project, not just the browser extension.
 
 ## Resources
 - [Source code](https://github.com/draber/spelling-bee-extension/tree/main/src/js)
